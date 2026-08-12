@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.3.1"
+version: "0.3.2"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,9 +19,9 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Fixes Umbrel startup on fresh installs by preparing the persistent data
-  directory before dropping to the unprivileged RigPulse user. Also includes
-  the six-card single-row desktop dashboard layout cleanup.
+  Adds a favicon, photographic mining-room theme, RGB fleet-best-share miner
+  highlight, readable pool difficulty units, aligned customization preview,
+  and separate share celebration emojis by mining algorithm.
 dependencies: []
 path: ""
 defaultUsername: ""

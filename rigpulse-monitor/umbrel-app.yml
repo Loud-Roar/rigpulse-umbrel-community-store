@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.4.0"
+version: "0.4.1"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,8 +19,8 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Adds persistent miner block-found celebrations and replay, BTC/BCH network
-  status, current-share telemetry, and optional watch-only wallet balances.
+  Adds pool-side BCH SoloPool block detection, public-address auto-discovery,
+  and winning-worker matching when miner firmware omits found blocks.
 dependencies: []
 path: ""
 defaultUsername: ""

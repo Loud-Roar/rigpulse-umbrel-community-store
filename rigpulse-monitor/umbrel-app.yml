@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.4.9"
+version: "0.5.0"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,8 +19,8 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Adds live prices inside the BTC and BCH block cards and a matching Alephium
-  market card beside them, including 24-hour changes.
+  Adds a collapsible menu, persistent drag-and-resize dashboard layouts, and
+  live USD equivalents beside configured BTC and BCH wallet balances.
 dependencies: []
 path: ""
 defaultUsername: ""

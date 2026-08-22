@@ -7,7 +7,7 @@ services:
       APP_PORT: 8080
 
   server:
-    image: ghcr.io/loud-roar/rigpulse:0.5.2
+    image: ghcr.io/loud-roar/rigpulse:0.5.3
     init: true
     restart: unless-stopped
     environment:

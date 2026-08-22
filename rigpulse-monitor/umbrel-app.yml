@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.5.2"
+version: "0.5.3"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,8 +19,8 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Rebuilds Nerd Console around pool and miner status with worker gauges,
-  icon-led instrumentation, LCD colors, and prominent wallet/share/network data.
+  Stops Pool Miners from flickering during refreshes and tightens Nerd Console
+  into a calmer, denser instrument layout for desktop and ultra-wide displays.
 dependencies: []
 path: ""
 defaultUsername: ""

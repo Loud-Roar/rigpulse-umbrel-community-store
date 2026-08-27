@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.5.8"
+version: "0.5.9"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,8 +19,9 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Rolls back the v0.5.7 miner-card regression and restores the proven v0.5.6
-  layout across every dashboard theme.
+  Adds optional ntfy phone notifications for new miner and SoloPool best shares,
+  saved notification settings, and a test-notification button. Dashboard themes
+  and miner-card layouts are unchanged.
 dependencies: []
 path: ""
 defaultUsername: ""

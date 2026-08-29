@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.5.11"
+version: "0.5.12"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,8 +19,8 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Adds visible editable fields for all three ntfy topics and gives Block Found
-  cards a dedicated badge row so the badge cannot cover the miner name.
+  Adds readable timestamps and hover or tap inspection with exact times and
+  values to miner hashrate, temperature, and power history graphs.
 dependencies: []
 path: ""
 defaultUsername: ""

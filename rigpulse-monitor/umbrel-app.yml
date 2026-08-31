@@ -4,7 +4,7 @@ name: RigPulse
 tagline: Local ASIC fleet monitoring
 icon: https://raw.githubusercontent.com/Loud-Roar/rigpulse/main/icon.svg
 category: bitcoin
-version: "0.6.2"
+version: "0.6.3"
 port: 8080
 description: >-
   RigPulse is a local-first dashboard for monitoring mixed ASIC mining fleets
@@ -19,8 +19,8 @@ repo: https://github.com/Loud-Roar/rigpulse
 support: https://github.com/Loud-Roar/rigpulse/issues
 gallery: []
 releaseNotes: >-
-  Fixes live share reporting and Today/Session totals after miner counter resets
-  or RigPulse restarts, with reset-safe counting and persistent share events.
+  Fixes stale Canaan Nano share counters by reading the live cglog web endpoint
+  when the miner's TCP cgminer interface lags behind its dashboard.
 dependencies: []
 path: ""
 defaultUsername: ""

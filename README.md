@@ -5,7 +5,7 @@ This folder is ready to become a standalone Umbrel Community App Store repositor
 Publishing order:
 
 1. Push the main RigPulse source to `https://github.com/Loud-Roar/rigpulse`.
-2. Let GitHub Actions publish `ghcr.io/loud-roar/rigpulse:0.6.1`.
+2. Let GitHub Actions publish `ghcr.io/loud-roar/rigpulse:0.6.2`.
 3. Make the GHCR container package public.
 4. Push this Community Store as a separate GitHub repository.
 5. Add that Community Store repository URL in umbrelOS.
